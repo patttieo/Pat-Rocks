@@ -1,0 +1,199 @@
+.mywork {
+  .section-title {
+    padding-bottom:20%;
+    span {
+      position:relative;
+      top:-1rem;
+      font-size:3rem;
+    }
+
+  }
+  .row {
+    max-width: none;
+    margin:0;
+  }
+  .work-example {
+    position:relative;
+    height: 90vh; 
+    text-align: center;
+    
+    .overlay {
+      border-bottom:1px #eee solid;
+      width:100%;
+      position:absolute;
+      left:0;
+      top:0;
+      height: 100%;
+      background: rgba(255,255,255,1);
+      transition:all .5s ease-out;
+      z-index:-1;
+    }
+    a {
+      width:100%;
+      height: 100%;
+      display: block;
+    }
+    .example-content {
+      padding:5vh 7.5vw;
+      position:relative;
+      z-index: -1;   
+      color:#000;
+      display: inline-block;
+      transition:all .5s ease-out;
+
+      h2 {
+        font-size:3.4rem;
+        padding-bottom:1rem;
+      }
+      h2,h3,h4 {
+        color:#000;
+        display: block;
+      }    
+      h4 {
+        font-family: $body-copy;
+        font-size: 1.4rem;
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      .overlay {
+        background: rgba(0,0,0,0.85);
+      }
+      a {
+        color:#fff;
+      }
+      .example-content {
+        h2,h3,h4 {
+          color:#fff;
+        }
+        h4 {
+          text-decoration: underline;
+        }
+      }
+    }
+    &.odd {
+      .overlay {
+        background: rgba(0,0,0,0.85);
+        ;
+        transition:all .5s ease-out;
+      }
+      .example-content {
+        transition:all .5s ease-out;
+        h2,h3,h4 {
+          color:#fff;
+        }    
+      }
+      &:hover {
+        cursor: pointer;
+        .overlay {
+          background: rgba(255,255,255,1)
+        }
+        a {
+          color:#000;
+        }
+        .example-content {
+          h2,h3,h4 {
+            color:#000;
+          }
+          h4 {
+            text-decoration: underline;
+          }
+        }
+      }
+    } 
+  }    
+ .example-one {
+      background: url(../static/timberthreads-showcase.png) no-repeat center center;
+      background-attachment: fixed;
+      background-size: contain; 
+  }
+  .example-two {  
+
+      background: url(../static/timberhockey-showcase.png) no-repeat center center;
+      background-attachment: fixed;
+      background-size: contain; 
+  }
+  .example-three {
+      background: url(../static/patortiz-showcase.png) no-repeat center center;
+      background-attachment: fixed;
+      background-size: contain; 
+      .example-content {
+        h2 {
+          padding-bottom:1.5rem;
+          span {
+            font-family: $body-copy;
+            display: block;
+            font-size:1.3rem;
+          }
+        }
+      }
+  }
+  .example-four {
+     background: url(../static/edel-showcase.png) no-repeat center center;
+     background-attachment: fixed;
+     background-size: contain; 
+  }
+  .example-five {
+     background: url(../static/indehaus-showcase.png) no-repeat center center;
+     background-attachment: fixed;
+     background-size: contain; 
+  }
+}
+
+@media (min-width: 970px) {
+  .mywork {
+    .work-example {
+      height: 100vh;
+      .example-content {
+        h2 {
+          font-size: 5rem;
+          padding-bottom:1.5rem;
+        }
+        h3 {
+          font-size:1.7rem;
+        }
+        h4 {
+          font-size:2rem;
+        }
+      }
+    }
+    .example-one {
+        background: url(../static/timberthreads-showcase.png) no-repeat center center;
+        background-attachment: fixed;
+        background-size: inherit; 
+    }
+    .example-two {  
+        background: url(../static/timberhockey-showcase.png) no-repeat center center;
+        background-attachment: fixed;
+        background-size: inherit;
+ 
+    }
+    .example-three {
+        background: url(../static/patortiz-showcase.png) no-repeat center center;
+        background-attachment: fixed;
+        background-size: inherit; 
+    }
+    .example-four {
+       background: url(../static/edel-showcase.png) no-repeat center center;
+       background-attachment: fixed;
+       background-size: inherit; 
+    }
+    .example-five {
+       background: url(../static/indehaus-showcase.png) no-repeat center center;
+       background-attachment: fixed;
+       background-size: inherit; 
+    }    
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+

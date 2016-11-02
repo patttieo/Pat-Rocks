@@ -1,0 +1,35 @@
+.home-banner {
+  height:100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  .banner-content {
+    line-height:0;
+    h1 {
+      font-size:4.5rem;
+    }
+    h2 {
+      font-family:$body-copy;
+      font-size:2.5rem;
+    }
+  }
+}
+@media (min-width: 970px) {
+  .home-banner {
+    padding:20rem 0;
+    height: 100vh;
+    text-align: center;
+    .banner-content {
+      line-height:0;
+      h1 {
+        font-size:6rem;
+      }
+      h2 {
+        font-family:$body-copy;
+        font-size:3rem;
+      }
+    }
+  }
+}

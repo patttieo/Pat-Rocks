@@ -1,0 +1,92 @@
+html, body {
+  font-size: 100%;
+}
+
+p, li {
+  font-size: 0.9775rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.375rem;
+}
+h3 {
+  font-size: 1.125rem;
+}
+h4 {
+  font-size: 1.75rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+h6 {
+  font-size: 1.2rem;
+}
+
+@media(min-width: 25em) {
+  html, body {
+    font-size: 101%;
+  }
+}
+
+@media(min-width: 35em) {
+  html, body {
+    font-size: 102%;
+  }
+}
+
+@media(min-width: 45em) {
+  html, body {
+    font-size: 103%;
+  }
+}
+
+@media(min-width: 55em) {
+  html, body {
+    font-size: 105%;
+  }
+}
+
+@media(min-width: 65em) {
+  html, body {
+    font-size: 107%;
+  }
+}
+
+@media(min-width: 75em) {
+  html, body {
+    font-size: 109%;
+  }
+}
+
+@media(min-width: 85em) {
+  html, body {
+    font-size: 112%;
+  }
+}
+
+@media(min-width: 95em) {
+  html, body {
+    font-size: 116%;
+  }
+}
+
+@media(min-width: 105em) {
+  html, body {
+    font-size: 122%;
+  }
+}
+
+@media(min-width: 115em) {
+  html, body {
+    font-size: 130%;
+  }
+}
+
+@media(min-width: 125em) {
+  html, body {
+    font-size: 138%;
+  }
+}
+

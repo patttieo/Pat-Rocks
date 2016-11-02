@@ -1,0 +1,376 @@
+
+.button:hover {
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
+}
+
+.button:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+.main-wrapper {
+	font-family: "museo-sans-1","museo-sans-2",sans-serif;
+	font-size:14px; 
+	font-weight:300;
+	line-height:1.4;
+}
+
+.title-space {
+	text-align:center;
+	height:75vh;
+	padding:20vh 10%;
+	color:#fff;
+	a { text-decoration:none; color:#fff;}
+	h1 { font-size:75px; text-transform:uppercase; margin:0;}
+	.fa {font-size:50px; }
+
+}
+// ----------------
+
+//  Menu Styles
+
+// ----------------
+
+.menu-trigger {
+	font-size:30px;
+	color:#fff;
+	position: fixed;
+	top:5%;
+	left:5%;
+	z-index: 2;
+	cursor:pointer;
+	padding:2px 5px;
+	background:#000;
+	border-radius:4px;
+	span { padding-left:5px; }
+}
+
+.main-nav-out {
+	width:100%;
+	height:100%;
+	background:#fff;
+	position: fixed;
+	z-index: 3;
+	left:0;
+	top:0;
+	display:none;
+	box-shadow: 1px 3px 9px 0px rgba(0,0,0,0.75);
+	background:#fff;
+	opacity:0.98;
+	ul { 
+		padding:20% 0 0;  
+	}
+	li {
+		list-style:none;
+		text-align: center;
+		width:100%;		
+		display: none;
+		&:hover{
+			background:#000;
+			a {
+			color:#fff;
+
+			.fa { display:block; }
+			}		
+		}
+	}
+
+	a { 
+		line-height:45px; 
+		text-decoration:none; 
+		color:#000; 
+		text-transform:uppercase; 
+		font-size:22px; 
+		display:inline-block;
+		position:relative;		
+		&:active {
+			font-weight: bold;
+		}
+	}
+	.close-button {
+		font-size:30px;
+		position: absolute;
+		right:20px; 
+		top:20px;
+	}	
+
+}
+
+
+// ----------------
+
+//  Banner section Styles
+
+// ----------------
+
+video#bgvid {
+	position: absolute; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto;
+	height:auto;
+	z-index: -100;
+	background-size: cover;
+}
+
+
+.banner-section {
+    position: relative;
+    height:100vh;
+}
+.intro-wrapper {
+	-webkit-animation: smooth 1s ease-in;
+	margin:0 auto; 
+	text-align:center; 
+	text-transform:uppercase;
+	color:#fff;
+	position: relative;
+	top:20vh;
+	h1 {
+		font-size: 70px; 
+		margin:0;
+		span { display:block; text-transform:none; font-size:60px; }
+	}
+	h2 { font-size:25px; }
+
+	.fa { font-size:50px; color:#fff; }
+
+}
+@-webkit-keyframes smooth{
+    from{ opacity:0; }
+    to{ opacity:1; }
+}
+
+// ----------------
+
+//  My Work Section Styles 
+
+// ----------------
+
+.mywork-title {
+	background-image: url(../img/fill-img-two.jpg);
+    background-size: cover;
+}
+
+.port-sections {
+	height:100%;
+}
+.ports {
+	float:left;
+	width:50%;
+	display:block;
+	height:40em;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration:none; 
+	max-width: 100%;
+	background:#fff;
+	a {
+		color:#000; 
+		text-decoration: none; 
+	}
+	.port-content {
+		position:relative;
+		top:30%;
+		opacity:0;
+		transition: all .35s ease-in-out;
+		transition-property: top, opacity;			
+		color:#fff; 
+		.title {
+			font-size:70px; 
+			line-height: 50px;
+			margin:0;
+			span{ display:block; font-size:30px;}
+		}
+		p { padding-bottom:25px;  }
+		.visit-button {
+			background: #fff;
+			color:#000;
+			font-weight: bold;
+			padding:5px 10px;
+			display: inline-block;
+			border-radius:6px;
+			font-size:18px;
+		}
+	
+	}
+}
+.ports.wide {
+	width:100%;
+	height:50em;
+	.port-content {
+		top:0;
+	}
+}
+.port-about {
+	width:100%;
+	position: relative;
+	left:0;
+	display: none;
+	top:100%;
+	min-height:250px;
+	float:left;
+
+}
+.port-wrap {
+	overflow:hidden;	
+    max-width: 100%;
+	width:100%;
+	height:100%;
+	display:block; 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto 90%;
+	transition: all .15s ease-in-out;
+	transition-property:background;
+	&:hover {
+		.port-content {
+			top:15%;
+			opacity:1;
+			display: block;
+		}			
+	}
+	
+}
+.port-mela {
+	background-image: url(../img/sunshades-m.jpg);
+	background-color:#fff;
+	&:hover {
+		background-image: url(../img/blank-img.jpg);
+		background-color:#000;
+	}
+}
+
+.port-tt {
+	background-image: url(../img/tt-port.jpg);
+	background-color:#fff;
+	&:hover {
+		background-image: url(../img/tt-logo.jpg);
+		background-color:#000;
+	}
+}
+
+.port-portiz {
+	background-image: url(../img/patortiz-port.jpg);
+	background-color:#fff;
+	&:hover {
+		background-image: url(../img/patortiz-logo.jpg);
+		background-color:#000;
+	}
+}
+
+.port-hockey {
+	background-image: url(../img/hockey-port.jpg);
+	background-color:#fff;
+	&:hover {
+		background-image: url(../img/hockey-logo.jpg);
+		background-color:#000;
+	}
+}
+
+// ----------------
+
+//  About Section 
+
+// ----------------
+
+.about-title {
+	background-image: url(../img/fill-img-one.jpg);
+    background-size: cover;
+	.ig-trigger {
+		display: none;
+	}
+}
+
+.about-content {
+	text-align:center; 
+	color:#000; 
+	font-size:18px;
+	h2 { font-size:30px;}
+	.fade-wrap {
+		padding:10% 15%;
+		opacity:0; 
+	}
+	a { color:#000; }
+	.ig-trigger {
+		display: block; 
+	}
+}
+.ig-feed {
+	width:100%;
+	padding:0;
+	img { width:20%; opacity:0; }
+}
+
+
+
+// ----------------
+
+//  Contact me Section 
+
+// ----------------
+
+
+.contact-title {
+	background-image: url(../img/fill-img-three.jpg);
+    background-size: cover;
+
+}
+.contact-section {
+
+	background:#000;
+}
+.behind-wrapper {
+	position:absolute;
+	width:100%;
+	text-align:right;
+	color:#fff;
+	padding:0;
+	h2 {
+		font-size:9.5em;
+		text-transform:uppercase;
+		line-height: 0.8;
+		float:right;
+		padding:0;
+		margin:0;
+		position: relative;
+		top:60px;
+		letter-spacing:-10px;
+		span { display:block; }
+	}
+}
+
+.contact-info {
+	float:left; 
+	padding:15% 0 10% 5%;
+	background:#fff;
+	width:100%;
+	color:#000;
+	text-align:left;
+	font-size:25px; 
+	position: relative;
+	h2 { 
+		line-height:30px;
+		font-size:30px;
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+	}
+	p { margin:0; }
+	a { text-decoration:none; color:#000;}
+	.info {
+		padding:5% 0; 
+		font-size:18px; 
+	}
+	.social-stuff {
+		li { display:inline-block; margin:0 5px; line-height:1; }
+		span { font-size:16px;  padding-left:5px;  }
+	}
+}
+
+.map {
+	width: 50%;
+	height: 10em;
+}

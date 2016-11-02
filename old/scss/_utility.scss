@@ -1,0 +1,72 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+.gothic-o {
+     font-family: "gothic-open-shaded-1","gothic-open-shaded-2",sans-serif;
+}
+.lobster {
+     font-family: "lobster-1","lobster-2",serif;
+}
+.league {
+    font-family: "league-gothic-1","league-gothic-2",sans-serif;
+}
+.meseo {
+    font-family: "museo-sans-1","museo-sans-2",sans-serif
+}
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+*, *:after, *:before {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right;
+}
+.big-img {
+    padding: 25vh 10%;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-transform-style: inherit;
+    transform-style: inherit;
+    position: relative;
+}
+
+/* Button 2 */
+.button {
+	background-color: rgb(105, 210, 231);
+	color: #fff;
+    padding:10px; 
+	box-shadow: rgba(87, 169, 185, 0.9) 0px 3px 0px 0px, transparent 0 0 0;
+	transition: none;
+}
+
+/* Button 2a */
+.button {
+	border-radius: 0 0 5px 5px;
+}
+
+
