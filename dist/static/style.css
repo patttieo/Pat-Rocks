@@ -8556,7 +8556,7 @@ h4 {
 }
 
 .mywork .section-title {
-  padding-bottom: 20%;
+  padding-bottom: 10%;
 }
 .mywork .section-title span {
   position: relative;
@@ -8569,7 +8569,6 @@ h4 {
 }
 .mywork .work-example {
   position: relative;
-  height: 90vh;
   text-align: center;
 }
 .mywork .work-example .overlay {
@@ -8596,10 +8595,6 @@ h4 {
   display: inline-block;
   transition: all .5s ease-out;
 }
-.mywork .work-example .example-content h2 {
-  font-size: 3.4rem;
-  padding-bottom: 1rem;
-}
 .mywork .work-example .example-content h2, .mywork .work-example .example-content h3, .mywork .work-example .example-content h4 {
   color: #000;
   display: block;
@@ -8607,6 +8602,14 @@ h4 {
 .mywork .work-example .example-content h4 {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.4rem;
+}
+.mywork .work-example .example-content h2 {
+  padding-bottom: 1.5rem;
+}
+.mywork .work-example .example-content h2 span {
+  font-family: "proxima-nova", sans-serif;
+  display: block;
+  font-size: 1.3rem;
 }
 .mywork .work-example:hover {
   cursor: pointer;
@@ -8648,44 +8651,8 @@ h4 {
 .mywork .work-example.odd:hover .example-content h4 {
   text-decoration: underline;
 }
-.mywork .example-one {
-  background: url(../static/timberthreads-showcase.png) no-repeat center center;
-  background-attachment: fixed;
-  background-size: contain;
-}
-.mywork .example-two {
-  background: url(../static/timberhockey-showcase.png) no-repeat center center;
-  background-attachment: fixed;
-  background-size: contain;
-}
-.mywork .example-three {
-  background: url(../static/patortiz-showcase.png) no-repeat center center;
-  background-attachment: fixed;
-  background-size: contain;
-}
-.mywork .example-three .example-content h2 {
-  padding-bottom: 1.5rem;
-}
-.mywork .example-three .example-content h2 span {
-  font-family: "proxima-nova", sans-serif;
-  display: block;
-  font-size: 1.3rem;
-}
-.mywork .example-four {
-  background: url(../static/edel-showcase.png) no-repeat center center;
-  background-attachment: fixed;
-  background-size: contain;
-}
-.mywork .example-five {
-  background: url(../static/indehaus-showcase.png) no-repeat center center;
-  background-attachment: fixed;
-  background-size: contain;
-}
 
 @media (min-width: 970px) {
-  .mywork .work-example {
-    height: 100vh;
-  }
   .mywork .work-example .example-content h2 {
     font-size: 5rem;
     padding-bottom: 1.5rem;
@@ -8695,31 +8662,6 @@ h4 {
   }
   .mywork .work-example .example-content h4 {
     font-size: 2rem;
-  }
-  .mywork .example-one {
-    background: url(../static/timberthreads-showcase.png) no-repeat center center;
-    background-attachment: fixed;
-    background-size: inherit;
-  }
-  .mywork .example-two {
-    background: url(../static/timberhockey-showcase.png) no-repeat center center;
-    background-attachment: fixed;
-    background-size: inherit;
-  }
-  .mywork .example-three {
-    background: url(../static/patortiz-showcase.png) no-repeat center center;
-    background-attachment: fixed;
-    background-size: inherit;
-  }
-  .mywork .example-four {
-    background: url(../static/edel-showcase.png) no-repeat center center;
-    background-attachment: fixed;
-    background-size: inherit;
-  }
-  .mywork .example-five {
-    background: url(../static/indehaus-showcase.png) no-repeat center center;
-    background-attachment: fixed;
-    background-size: inherit;
   }
 }
 .about-section {

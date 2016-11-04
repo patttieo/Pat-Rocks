@@ -1,6 +1,6 @@
 .mywork {
   .section-title {
-    padding-bottom:20%;
+    padding-bottom:10%;
     span {
       position:relative;
       top:-1rem;
@@ -14,7 +14,6 @@
   }
   .work-example {
     position:relative;
-    height: 90vh; 
     text-align: center;
     
     .overlay {
@@ -41,10 +40,6 @@
       display: inline-block;
       transition:all .5s ease-out;
 
-      h2 {
-        font-size:3.4rem;
-        padding-bottom:1rem;
-      }
       h2,h3,h4 {
         color:#000;
         display: block;
@@ -53,6 +48,14 @@
         font-family: $body-copy;
         font-size: 1.4rem;
       }
+      h2 {
+        padding-bottom:1.5rem;
+        span {
+          font-family: $body-copy;
+          display: block;
+          font-size:1.3rem;
+        }
+      }      
     }
     &:hover {
       cursor: pointer;
@@ -69,6 +72,7 @@
         h4 {
           text-decoration: underline;
         }
+
       }
     }
     &.odd {
@@ -98,52 +102,43 @@
           h4 {
             text-decoration: underline;
           }
+
         }
       }
     } 
   }    
- .example-one {
-      background: url(../static/timberthreads-showcase.png) no-repeat center center;
-      background-attachment: fixed;
-      background-size: contain; 
-  }
-  .example-two {  
+ // .example-one {
+ //      background: url(../static/timberthreads-showcase.png) no-repeat center center;
+ //      background-attachment: fixed;
+ //      background-size: contain; 
+ //  }
+ //  .example-two {  
 
-      background: url(../static/timberhockey-showcase.png) no-repeat center center;
-      background-attachment: fixed;
-      background-size: contain; 
-  }
+ //      background: url(../static/timberhockey-showcase.png) no-repeat center center;
+ //      background-attachment: fixed;
+ //      background-size: contain; 
+ //  }
   .example-three {
-      background: url(../static/patortiz-showcase.png) no-repeat center center;
-      background-attachment: fixed;
-      background-size: contain; 
-      .example-content {
-        h2 {
-          padding-bottom:1.5rem;
-          span {
-            font-family: $body-copy;
-            display: block;
-            font-size:1.3rem;
-          }
-        }
-      }
+      // background: url(../static/patortiz-showcase.png) no-repeat center center;
+      // background-attachment: fixed;
+      // background-size: contain; 
+
   }
-  .example-four {
-     background: url(../static/edel-showcase.png) no-repeat center center;
-     background-attachment: fixed;
-     background-size: contain; 
-  }
-  .example-five {
-     background: url(../static/indehaus-showcase.png) no-repeat center center;
-     background-attachment: fixed;
-     background-size: contain; 
-  }
+  // .example-four {
+  //    background: url(../static/edel-showcase.png) no-repeat center center;
+  //    background-attachment: fixed;
+  //    background-size: contain; 
+  // }
+  // .example-five {
+  //    background: url(../static/indehaus-showcase.png) no-repeat center center;
+  //    background-attachment: fixed;
+  //    background-size: contain; 
+  // }
 }
 
 @media (min-width: 970px) {
   .mywork {
     .work-example {
-      height: 100vh;
       .example-content {
         h2 {
           font-size: 5rem;
@@ -157,32 +152,32 @@
         }
       }
     }
-    .example-one {
-        background: url(../static/timberthreads-showcase.png) no-repeat center center;
-        background-attachment: fixed;
-        background-size: inherit; 
-    }
-    .example-two {  
-        background: url(../static/timberhockey-showcase.png) no-repeat center center;
-        background-attachment: fixed;
-        background-size: inherit;
+    // .example-one {
+    //     background: url(../static/timberthreads-showcase.png) no-repeat center center;
+    //     background-attachment: fixed;
+    //     background-size: inherit; 
+    // }
+    // .example-two {  
+    //     background: url(../static/timberhockey-showcase.png) no-repeat center center;
+    //     background-attachment: fixed;
+    //     background-size: inherit;
  
-    }
-    .example-three {
-        background: url(../static/patortiz-showcase.png) no-repeat center center;
-        background-attachment: fixed;
-        background-size: inherit; 
-    }
-    .example-four {
-       background: url(../static/edel-showcase.png) no-repeat center center;
-       background-attachment: fixed;
-       background-size: inherit; 
-    }
-    .example-five {
-       background: url(../static/indehaus-showcase.png) no-repeat center center;
-       background-attachment: fixed;
-       background-size: inherit; 
-    }    
+    // }
+    // .example-three {
+    //     background: url(../static/patortiz-showcase.png) no-repeat center center;
+    //     background-attachment: fixed;
+    //     background-size: inherit; 
+    // }
+    // .example-four {
+    //    background: url(../static/edel-showcase.png) no-repeat center center;
+    //    background-attachment: fixed;
+    //    background-size: inherit; 
+    // }
+    // .example-five {
+    //    background: url(../static/indehaus-showcase.png) no-repeat center center;
+    //    background-attachment: fixed;
+    //    background-size: inherit; 
+    // }    
   }  
 }
 
